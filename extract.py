@@ -8,7 +8,7 @@ def load_csv():
     """
 
     # --------------------------
-    # 1️⃣ CSV files and table mapping
+    # 1. CSV files and table mapping
     # --------------------------
     japan_store = {
         "japan_branch.csv": "branch",
@@ -27,14 +27,14 @@ def load_csv():
     }
 
     # --------------------------
-    # 2️⃣ SQLite database connections
+    # 2. SQLite database connections
     # --------------------------
     conn_japan = sqlite3.connect("japan_staging_area.db")
     conn_myanmar = sqlite3.connect("myanmar_staging_area.db")
 
     try:
         # --------------------------
-        # 3️⃣ Load Japan CSVs
+        # 3. Load Japan CSVs
         # --------------------------
         print("Loading Japan CSVs into staging database...")
         for csv_file, table_name in japan_store.items():
@@ -43,7 +43,7 @@ def load_csv():
             print(f" - {csv_file} → table '{table_name}' ({len(df)} rows)")
 
         # --------------------------
-        # 4️⃣ Load Myanmar CSVs
+        # 4. Load Myanmar CSVs
         # --------------------------
         print("\nLoading Myanmar CSVs into staging database...")
         for csv_file, table_name in myanmar_store.items():
@@ -52,7 +52,7 @@ def load_csv():
             print(f" - {csv_file} → table '{table_name}' ({len(df)} rows)")
 
         # --------------------------
-        # 5️⃣ Optional: print first 5 rows of each table for verification
+        # 5. Optional: print first 5 rows of each table for verification
         # --------------------------
         print("\nSample data from Japan staging DB:")
         for table_name in japan_store.values():
