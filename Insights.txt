@@ -1,0 +1,17 @@
+Here are my five insights 
+
+Total Revenue by Country (USD) Japan generated slightly more total revenue than Myanmar.
+Japan: $\$245,778.80$
+Myanmar: $\$231,952.34$
+Top 3 Best-Selling Categories (Global) These are the categories that moved the most inventory across both stores:
+Fashion accessories: $2,460$ units sold
+Electronic accessories: $2,314$ units sold
+Sports and travel: $1,990$ units sold
+Average Order Value (AOV) This tells us how much a customer spends on average every time they make a purchase.
+Japan: $\$234.30$ per order
+Myanmar: $\$221.12$ per order
+Most Popular Product per Country Local preferences show that "Wallets" are the top items in both regions:
+Japan: Minimalist Card Wallet
+Myanmar: Leather Wallet
+Busiest Day for Sales The peak traffic across all branches occurred on
+ February 7, 2019, with a total of 42 transactions recorded in a single day.
